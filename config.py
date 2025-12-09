@@ -34,7 +34,7 @@ DEFAULT_TAX_LIMIT_INITIAL = 64500  # Knækgrænse 2025
 DEFAULT_TAX_LIMIT_INCREASE = 0.025  # Årlig stigning ~2.5%
 
 # ASK regler (2025)
-DEFAULT_ASK_CEILING = 166_400  # Indskudsloft 2025
+DEFAULT_ASK_CEILING = 166400  # Indskudsloft 2025
 DEFAULT_ASK_ANNUAL_INCREASE = 9000  # Årlig forhøjelse
 
 # Allokering (skal summe til 1.0)
@@ -45,14 +45,14 @@ DEFAULT_ALLOCATION = {
 }
 
 # Startbeholdninger
-DEFAULT_START_CASH = 92000  # Boligopsparing + andre kontanter
-DEFAULT_START_ASK = 166400  # ASK beholdning
-DEFAULT_START_FREE = 192000  # Frie midler (månedsopsparing)
+DEFAULT_START_CASH = 50000  # Boligopsparing + andre kontanter
+DEFAULT_START_ASK = 50000  # ASK beholdning
+DEFAULT_START_FREE = 50000  # Frie midler (månedsopsparing)
 
 # Simulation
 DEFAULT_MC_PATHS = 1000  # Antal Monte Carlo simuleringer
-DEFAULT_MC_PATHS_SEARCH = 400  # Til optimering/søgning
-DEFAULT_MC_PATHS_SENSITIVITY = 200  # Til sensitivity analyse
+DEFAULT_MC_PATHS_SEARCH = 600  # Til optimering/søgning
+DEFAULT_MC_PATHS_SENSITIVITY = 600  # Til sensitivity analyse
 DEFAULT_SEED = 42  # Random seed for reproducerbarhed
 
 # Markedsscenarier
